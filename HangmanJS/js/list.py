@@ -1,4 +1,4 @@
-# Dieses Programm dient nur dazu, die Wörter aus final_words.txt in Array-Form zu bringen und zu kürzen
+# Dieses Programm dient nur dazu, die Wörter aus words.txt in Array-Form zu bringen und zu kürzen
 
 def readMafia():
     f = open("netzmafia_woerter.txt","r")
