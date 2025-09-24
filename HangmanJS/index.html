@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="This is a simple Hangman Game with German words">
+        <meta name="author" content="Sebastian Lein">
+	<meta name="robots" content="noindex">
+        <link href="../css/styles.css" rel="stylesheet" />
+        <link href="../css/main.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <div class="text-white text-center">
+            <div class="topnav">
+                <a href="../index.html"><img src="../img/homeicon.png"></img></a>
+            </div>
+            <br>
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h2 class="text-secondary mb-0" id="unbekannt"></p>
+                </div>
+                <h3 id="Siegertext"></h3>
+                <div>
+                    <button class="restartButton" id="restartButton" onClick="window.location.reload(true)">Neustarten</button>
+                </div>
+                <br><br>
+                <p id = "Leben"></p> 
+                <div id="Buchstabensalat">
+                    <div class="knoeppe">
+                        <button class="button" id="A" onclick="buttonPress('A')">A</button>
+                        <button class="button" id="B" onclick="buttonPress('B')">B</button>
+                        <button class="button" id="C" onclick="buttonPress('C')">C</button>
+                        <button class="button" id="D" onclick="buttonPress('D')">D</button>
+                    </div>
+                    <br>
+                    <div class="knoeppe">
+                        <button class="button" id="E" onclick="buttonPress('E')">E</button>
+                        <button class="button" id="F" onclick="buttonPress('F')">F</button>
+                        <button class="button" id="G" onclick="buttonPress('G')">G</button>
+                        <button class="button" id="H" onclick="buttonPress('H')">H</button>
+                    </div>
+                    <br>
+                    <div class="knoeppe">
+                        <button class="button" id="I" onclick="buttonPress('I')">I</button>
+                        <button class="button" id="J" onclick="buttonPress('J')">J</button>
+                        <button class="button" id="K" onclick="buttonPress('K')">K</button>
+                        <button class="button" id="L" onclick="buttonPress('L')">L</button>
+                    </div>
+                    <br>
+                    <div class="knoeppe">
+                        <button class="button" id="M" onclick="buttonPress('M')">M</button>
+                        <button class="button" id="N" onclick="buttonPress('N')">N</button>
+                        <button class="button" id="O" onclick="buttonPress('O')">O</button>
+                        <button class="button" id="P" onclick="buttonPress('P')">P</button>
+                    </div>
+                    <br>
+                    <div class="knoeppe">
+                        <button class="button" id="Q" onclick="buttonPress('Q')">Q</button>
+                        <button class="button" id="R" onclick="buttonPress('R')">R</button>
+                        <button class="button" id="S" onclick="buttonPress('S')">S</button>
+                        <button class="button" id="T" onclick="buttonPress('T')">T</button>
+                    </div>
+                    <br>
+                    <div class="knoeppe">
+                        <button class="button" id="U" onclick="buttonPress('U')">U</button>
+                        <button class="button" id="V" onclick="buttonPress('V')">V</button>
+                        <button class="button" id="W" onclick="buttonPress('W')">W</button>
+                        <button class="button" id="X" onclick="buttonPress('X')">X</button>
+                    </div>
+                    <br>
+                    <div class="knoeppe">
+                        <button class="button" id="Y" onclick="buttonPress('Y')">Y</button>
+                        <button class="button" id="Z" onclick="buttonPress('Z')">Z</button>
+                    </div>
+                    <br><br>
+                </div>
+                <div>
+                    <button class="reload" id="finish" onClick="window.location.reload(true)">Neustarten</button>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="footer"></div>
+        </div>
+    
+        <!-- Javascript -->
+        <script src="js/hangman.js"></script>
+        <script src="../js/footer.js"></script>
+
+</html>
